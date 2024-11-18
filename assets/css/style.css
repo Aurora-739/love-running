@@ -91,7 +91,7 @@ footer {
 
 /* MEDIA QUERY -> TABLETS AND LARGER (768 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 768px) {
-    /*HEADER ----------------------------------------*/
+/*HEADER ----------------------------------------*/
     nav {
         display: block;
         position: relative;
@@ -108,5 +108,16 @@ footer {
     }
     .nav-toggle-label {
         display:none;
+    }
+    
+    #logo {
+        font-size:280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+/*MAIN CONTENT ----------------------------------------*/
+    main {
+        /* push main content down to accomodated larger header*/
+        margin-top:79px;
     }
 }
