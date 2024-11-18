@@ -40,7 +40,13 @@ h1 {
     color:#252525;
 }
 
-/* MAIN */
+#menu {
+    font-size:110%;
+    letter-spacing:4px;
+    list-style-type:none;
+}
+
+/* MAIN ---------------------------------------- */
 main {
     background-color: palevioletred;
     /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
