@@ -89,6 +89,7 @@ footer {
     background-color: rgb(241, 167, 228);
 }
 
+
 /* MEDIA QUERY -> TABLETS AND LARGER (768 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 768px) {
 /*HEADER ----------------------------------------*/
