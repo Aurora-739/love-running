@@ -85,10 +85,19 @@ main {
 }
 
 /* FOOTER ----------------------------------------*/
-footer {
-    background-color: rgb(241, 167, 228);
+#social-networks {
+    text-align:center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
 }
 
+#social-networks i {
+    font-size:160%;
+    padding:5%;
+    color:#3a3a3a;
+}
 
 /* MEDIA QUERY -> TABLETS AND LARGER (768 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 768px) {
