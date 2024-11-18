@@ -1,14 +1,14 @@
 /* GOOGLE FONTS IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 
-/* ASTERISK WILDCARD SELECTOR TO OVERRIDE DEFAULT STYLES ADDED BY BROWSER */
+/* ASTERISK WILDCARD SELECTOR TO OVERRIDE DEFAULT STYLES ADDED BY BROWSER ----------------------------------------*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* GENERAL STYLES */
+/* GENERAL STYLES ----------------------------------------*/
 body {
     min-height: 100vh;
     display: flex;
@@ -18,14 +18,14 @@ body {
     font-family:"Lato", sans-serif;
 }
 
-/* HEADER */
+/* HEADER ----------------------------------------*/
 header {
     background-color:#ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width:100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a; /*this is the shadow underneath the nav box*/
 }
 
 header a {
@@ -50,6 +50,16 @@ h1 {
 }
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+/*NAVBAR STYLES WITH DROPDOWN TOGGLE ----------------------------------------*/
+nav {
+    position:absolute; /* poistions the item outside of the regular structure -> relative to the nearest positioned ancestor*/
+    background-color:#ffffff;
+    width:100%;
+    left: 0;
+    padding : 0  1rem;
+    box-shadow:0 2px 2px #3a3a3a;
+    display:none;
 }
 
 /* MAIN ---------------------------------------- */
