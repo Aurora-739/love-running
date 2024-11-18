@@ -1,33 +1,37 @@
+/* GOOGLE FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /* ASTERISK WILDCARD SELECTOR TO OVERRIDE DEFAULT STYLES ADDED BY BROWSER */
 * {
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* GENERAL STYLES */
 body {
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* GENERIC PROJECT STYLES*/
     color: #3a3a3a;
-
+    font-family:"Lato", sans-serif;
 }
 
 /* HEADER */
 header {
-    background-color:pink;
+    background-color: pink;
 }
 
 /* MAIN */
 main {
-    background-color:palevioletred;
+    background-color: palevioletred;
     /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
     flex: 1 0 auto;
 }
 
 /* FOOTER */
 footer {
-    background-color:rgb(241, 167, 228);
+    background-color: rgb(241, 167, 228);
 }
+
