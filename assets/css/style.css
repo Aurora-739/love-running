@@ -1,8 +1,18 @@
-/* ASTERISK WILDCARD SELECTOR TO OVERRIDE DEFAULT STYLES ADDED BY BROWSER*/
+/* ASTERISK WILDCARD SELECTOR TO OVERRIDE DEFAULT STYLES ADDED BY BROWSER */
 * {
     padding:0;
     margin:0;
     box-sizing:border-box;
+}
+
+/* GENERAL STYLES */
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    /* GENERIC PROJECT STYLES*/
+    color: #3a3a3a;
+
 }
 
 /* HEADER */
@@ -13,6 +23,8 @@ header {
 /* MAIN */
 main {
     background-color:palevioletred;
+    /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
+    flex: 1 0 auto;
 }
 
 /* FOOTER */
