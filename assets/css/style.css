@@ -84,8 +84,29 @@ main {
     margin-top: 47px;
 }
 
-/* FOOTER */
+/* FOOTER ----------------------------------------*/
 footer {
     background-color: rgb(241, 167, 228);
 }
 
+/* MEDIA QUERY -> TABLETS AND LARGER (768 PX AND UP) ----------------------------------------*/
+@media screen and (min-width: 768px) {
+    /*HEADER ----------------------------------------*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1 rem;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display:none;
+    }
+}
