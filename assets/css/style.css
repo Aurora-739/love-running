@@ -81,6 +81,7 @@ main {
     background-color: palevioletred;
     /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* FOOTER */
