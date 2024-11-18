@@ -1,0 +1,21 @@
+/* ASTERISK WILDCARD SELECTOR TO OVERRIDE DEFAULT STYLES ADDED BY BROWSER*/
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* HEADER */
+header {
+    background-color:pink;
+}
+
+/* MAIN */
+main {
+    background-color:palevioletred;
+}
+
+/* FOOTER */
+footer {
+    background-color:rgb(241, 167, 228);
+}
