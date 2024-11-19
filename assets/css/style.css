@@ -108,6 +108,36 @@ main {
     color:#ffffff;
 }
 
+/* CIRCLE COVER BG DIV ----------------------------------------*/
+#circle-cover-bg {
+    background:url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+}
+/*REASONS SECTION ----------------------------------------*/
+#reasons {
+    margin: 20px auto;
+    width:90%;
+}
+
+#reasons h2 {
+    font-size:280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits-physical p, #benefits-mental p {
+    padding: 0 20px;
+}
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* FOOTER ----------------------------------------*/
 #social-networks {
     text-align:center;
