@@ -108,13 +108,6 @@ main {
     color:#ffffff;
 }
 
-/* CIRCLE COVER BG DIV ----------------------------------------*/
-#circle-cover-bg {
-    background:url("../images/reasons-image.webp") no-repeat top center/cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-}
 /*REASONS SECTION ----------------------------------------*/
 #reasons {
     margin: 20px auto;
@@ -126,16 +119,35 @@ main {
     text-align: center;
     margin-bottom: 20px;
 }
-#benefits-physical>div, #benefits-mental>div {
+
+#benefits-physical > div, #benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 #benefits-physical p, #benefits-mental p {
     padding: 0 20px;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+
+/* CIRCLE COVER BG DIV ----------------------------------------*/
+#circle-cover-bg {
+    background:url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* FOOTER ----------------------------------------*/
@@ -189,11 +201,45 @@ hr {
         width: 300px;
         right: 50px;
     }
+/* TARGET BENEFITS TEXT */
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-physical > div, 
+    #benefits-mental > div {
+        width:75%;
+    }
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* MEDIA QUERY -> LAPTOPS & LARGER (992 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+    #benfits {
+        display: flex;
+        flex-direction: row;
+    }
+    #benefits > div {
+        float: 1;
+    }
+    #benefits-image {
+        order: 0;
+    }
+    #benefits-mental {
+        order:1;
+    }
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+    #benefits-physical > div {
+        align-self: flex-end;
     }
 }
