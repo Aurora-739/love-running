@@ -76,12 +76,19 @@ nav {
 .nav-toggle-label {
     font-size:2rem;
 }
+
 /* MAIN ---------------------------------------- */
 main {
-    background-color: palevioletred;
     /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* HERO SECTION */
+#hero {
+    height: 600px;
+    width: 100%;
+    background:url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* FOOTER ----------------------------------------*/
