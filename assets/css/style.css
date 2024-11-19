@@ -18,6 +18,13 @@ body {
     font-family:"Lato", sans-serif;
 }
 
+h1,h2,h3 { 
+    font-family:"Oswald", sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color:#252525;
+}
+
 /* HEADER ----------------------------------------*/
 header {
     background-color:#ffffff;
@@ -36,12 +43,6 @@ header a {
     color: inherit;
 }
 
-h1 { 
-    font-family:"Oswald", sans-serif;
-    text-transform:uppercase;
-    letter-spacing: 2px;
-    color:#252525;
-}
 
 #menu { /*ul on nav bar*/
     font-size:110%;
@@ -88,7 +89,23 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background:url("../images/hero-image.webp") no-repeat center center/cover;
+    background:url("../images/hero-image.webp") no-repeat center center/cover; /* stops the imaged being distorted*/
+    position:relative
+}
+
+#cover-text {
+    background-color:rgba(241, 109, 107, .7); /* extra added to bae transparent */
+    font-size: 130%;
+    position:absolute;
+    bottom:30px;
+    width:80%;
+    min-height:200px;
+    padding-top:40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color:#ffffff;
 }
 
 /* FOOTER ----------------------------------------*/
@@ -108,7 +125,7 @@ main {
 
 /* MEDIA QUERY -> TABLETS AND LARGER (768 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 768px) {
-/*HEADER ----------------------------------------*/
+/*HEADER ---------------------------------------- */
     nav {
         display: block;
         position: relative;
@@ -132,10 +149,15 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-/*MAIN CONTENT ----------------------------------------*/
+/*MAIN CONTENT ---------------------------------------- */
     main {
         /* push main content down to accomodated larger header*/
         margin-top:79px;
+    }
+/* TARGET HERO */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
