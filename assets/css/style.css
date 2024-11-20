@@ -191,6 +191,17 @@ main {
 #times h3 {
     color: #fafafa
 }
+/* GALLERY PAGE ----------------------------------------*/
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* FOOTER ----------------------------------------*/
 #social-networks {
     text-align: center;
@@ -205,6 +216,15 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* MEDIA QUERY -> LLARGE OR LANDSCAPE PHONE SCREENS (576 PX AND UP) ----------------------------------------*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2; /* value indicates how mnay columns should be used (MASONRY DESIGN)*/
+        column-gap: 0;
+    }
+}
+
 
 /* MEDIA QUERY -> TABLETS AND LARGER (768 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 768px) {
