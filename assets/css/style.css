@@ -285,6 +285,10 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    #photos {
+        column-count: 3; /* value indicates how mnay columns should be used (MASONRY DESIGN)*/
+    }
 }
 
 /* MEDIA QUERY -> LAPTOPS & LARGER (992 PX AND UP) ----------------------------------------*/
@@ -318,5 +322,9 @@ main {
 
     #benefits-physical>div {
         align-self: flex-end;
+    }
+
+    #photos {
+        column-count: 4; /* value indicates how mnay columns should be used (MASONRY DESIGN)*/
     }
 }
