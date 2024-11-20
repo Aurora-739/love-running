@@ -365,7 +365,7 @@ main {
 }
 /* MEDIA QUERY -> LAPTOPS & LARGER (1200 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 1200px) {
-    #benfits {
+    #benefits {
         display: flex;
         flex-direction: row;
     }
@@ -375,11 +375,11 @@ main {
     }
 
     #benefits-image {
-        order: 1;
+        order: 0;
     }
 
     #benefits-mental {
-        order: 0;
+        order: 1;
     }
 
     #benefits-mental>div {
